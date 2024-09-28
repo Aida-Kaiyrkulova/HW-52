@@ -5,7 +5,7 @@ interface CardProps {
     suit: 'diams' | 'hearts' | 'clubs' | 'spades';
 }
 
-const Card: React.FC<CardProps> = ({ rank, suit }) => {
+const CardItem: React.FC<CardProps> = ({ rank, suit }) => {
     const suitSymbols: Record<string, string> = {
         diams: '♦',
         hearts: '♥',
@@ -21,4 +21,4 @@ const Card: React.FC<CardProps> = ({ rank, suit }) => {
     );
 };
 
-export default Card;
+export default CardItem;

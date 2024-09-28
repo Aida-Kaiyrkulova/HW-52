@@ -43,6 +43,9 @@
 
 /* suit colours
 ********************************************************************/
+button{
+  margin-bottom:20px;
+}
 
 .playingCards .card.diams {
   color: #f00 !important;
